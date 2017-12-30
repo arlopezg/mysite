@@ -1,32 +1,39 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<!--[if IE 8]>
+<html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en"> <!--<![endif]-->
 <head>
 	<title>Alejandro López</title>
+	<link rel="manifest" href="manifest.json">
 	<!-- Meta -->
 	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Desarrollador de software que se adapta a tus requerimientos">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="I'm a software develoepr">
 	<meta name="author" content="Alejandro López">
-	<link rel="shortcut icon" href="favicon.ico">
-	<meta name="theme-color" content="#42c098"/>
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-	<meta name="google-site-verification" content="uDsMwdPqyyuaImIFU6MrXgjfxU4xjpZoap3Wz23pI-E" />
+	<meta name="theme-color" content="#42c098">
+	<meta name="msapplication-navbutton-color" content="#42c098">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="google-site-verification" content="uDsMwdPqyyuaImIFU6MrXgjfxU4xjpZoap3Wz23pI-E"/>
 	<!-- Global CSS -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" media="none" onload="media='all'">
 	<!-- Plugins CSS -->
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
-	<!-- Theme CSS -->
-	<link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" type='text/css' href="assets/plugins/font-awesome/css/font-awesome.min.css" media="none" onload="media='all'">
+	<link rel="stylesheet" type='text/css' href="assets/css/styles.css" id="theme-style" media="none" onload="media='all'">
+	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' media="none" onload="media='all'">
+	<!-- Favicon -->
+	<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" type="image/vnd.microsoft.icon" sizes="192x192" href="favicon.ico">
 </head>
 
 <body>
 <div class="wrapper">
 	<div class="sidebar-wrapper">
 		<div class="profile-container">
-			<img class="profile" src="assets/images/profile.png" alt="profile_img" height="130" width="130" />
+			<img class="profile" src="assets/images/profile.webp" alt="profile_img" height="130" width="130"/>
 			<h1 class="name">Alejandro López</h1>
 			<h3 class="tagline">Front-end developer</h3>
 		</div><!--//profile-container-->
@@ -34,7 +41,7 @@
 		<div class="contact-container container-block">
 			<h2 class="container-block-title">Contact</h2>
 			<ul class="list-unstyled contact-list">
-				<li class="email" style="font-size:0.8em">
+				<li class="email">
 					<i class="fa fa-envelope"></i>
 					alejandrolopezgd@gmail.com
 				</li>
@@ -75,7 +82,7 @@
 			<ul class="list-unstyled interests-list">
 				<li>Technology</li>
 				<li>Music</li>
-				<li>Local soccer</li>
+				<li>Local football</li>
 			</ul>
 		</div><!--//interests-->
 	
@@ -85,22 +92,20 @@
 		<section class="section summary-section">
 			<h2 class="section-title"><i class="fa fa-address-card"></i>Professional profile</h2>
 			<div class="summary">
-				<p>
-					Soon to graduate from <b>Private University Dr. Rafael Belloso Chacín</b>, my skillsets allow me to manage,
-					research and solve problems with efficiency and agility.
-					I adapt quickly to new technologies and get on it comfortably, even <a href="https://www.youtube.com/watch?v=a01QQZyl-_I">under pressure</a>.
-				</p>
+				<p>Recently graduated from <b>Private University Dr. Rafael Belloso Chacín</b>, my skillsets allow me to manage,
+				   research and solve problems with efficiency and agility. I adapt quickly to new technologies and (y me
+				   desenvuelvo en ella de manera cómoda), even under pressure.</p>
 			</div><!--//summary-->
 		</section><!--//section-->
 		
-		<!--
-		<section class="section summary-section">
-				<h2 class="section-title"><i class="fa fa-user"></i>Sobre mí</h2>
-				<div class="summary">
-						<p>...</p>
-				</div>
-		</section>
-		-->
+		          <!--
+							<section class="section summary-section">
+									<h2 class="section-title"><i class="fa fa-user"></i>Sobre mí</h2>
+									<div class="summary">
+											<p>...</p>
+									</div>
+							</section>
+							-->
 		
 		<section class="section experiences-section">
 			<h2 class="section-title"><i class="fa fa-briefcase"></i>Work experience</h2>
@@ -113,7 +118,8 @@
 					<div class="company"><a href="http://www.sisventor.com/">Sistemas Ventor, C.A.</a></div>
 				</div><!--//meta-->
 				<div class="details">
-					<p>Front-end development of administrative web and hybrid apps, targeted to distribution companies.<p>
+					<p>Front-end development for administrative web and hybrid apps, targeted to distribution companies.
+					<p>
 				</div><!--//details-->
 			</div><!--//item-->
 			
@@ -126,23 +132,22 @@
 					<div class="company"><a href="http://www.megagroupla.com/">Megagroup, C.A.</a></div>
 				</div><!--//meta-->
 				<div class="details">
-					<p>Front-end development for document management web applications, as well as corporative responsive websites.</p>
+					<p>Front-end development for document management web applications, as well as corporative responsive
+					   websites.</p>
 				</div><!--//details-->
 			</div><!--//item-->
 			
 			<div class="item">
 				<div class="meta">
 					<div class="upper-row">
-						<h3 class="job-title">Teaching assistant</h3>
+						<h3 class="job-title">Tutor</h3>
 						<div class="time">January 2016 — December 2017</div>
 					</div><!--//upper-row-->
 					<div class="company"><a href="http://www.urbe.edu">Private University Dr. Rafael Belloso Chacín</a></div>
 				</div><!--//meta-->
 				<div class="details">
-					<p>
-						Operational support to lead teachers and students during academic activities.
-						Instructed small students groups on programming, office and graphic design software.
-					</p>
+					<p>Soporte técnico en el área de la informática (software de oficina, programación y diseño gráfico) dirigido
+					   tanto a profesores como a estudiantes de la universidad.</p>
 				</div><!--//details-->
 			</div><!--//item-->
 		
@@ -151,29 +156,15 @@
 		<section class="section projects-section">
 			<h2 class="section-title"><i class="fa fa-code-fork"></i>My projects</h2>
 			<div class="item">
-				<span class="project-title">
-					<a href="https://sistemasdepropulsion-ccfd0.firebaseapp.com">Shipper</a>
-				</span>
-				— <span class="project-tagline">Currently, I'm working on this administrative web app
-				as my undergraduate thesis. The goal for «<strong>Shipper</strong>» is to help up and coming businesses
-				to establish online presence in a quick and modern way.
-			</span>
+				<span class="project-title"><a href="https://shipper-fb694.firebaseapp.com">Shipper</a></span> —
+				<span class="project-tagline">Currently, I'm working on this administrative web app as my undergrad thesis. The goal for «<strong>Shipper</strong>» is to help up and coming businesses to establish online presence in a quick and modern way.</span>
 			</div>
 			<div class="item">
-				<span class="project-title">
-					<a href="#">WeTop</a>
-				</span>
-				— <span class="project-tagline">I'm involved in the development of an administrative web app
-				for a car workshop franchise called «<strong>WeTop</strong>», located in Dubai.</span>
+				<span class="project-title"><a href="#">WeTop</a></span> — <span class="project-tagline">I'm participating in the development of an administrative web app for a car workshop franchise called «<strong>WeTop</strong>», located in Dubai.</span>
 			</div>
 			<div class="item">
-				<span class="project-title">
-					<a href="http://lapapelera.16mb.com">La Papelera Tiene Hambre</a>
-				</span>
-				— <span class="project-tagline">I took part in the development of an unofficial blog for the NGO
-				dedicated to promoting environmental principles (located in Maracaibo), in order to ease the management
-				of its activities and obtain greater online presence.
-				</span>
+				<span class="project-title"><a href="http://lapapelera.16mb.com">La Papelera Tiene Hambre</a></span> —
+				<span class="project-tagline">Participé en el desarrollo de una bitácora no oficial para la ONG dedicada a promover principios ambientalistas (ubicada en Maracaibo), con el fin de facilitar la gestión de sus actividades y obtener mayor presencia en línea.</span>
 			</div>
 			<!--
 			<div class="item">
@@ -198,77 +189,98 @@
 		<section class="skills-section section">
 			<h2 class="section-title"><i class="fa fa-rocket"></i>Skills</h2>
 			<div class="skillset">
+				
 				<div class="item">
 					<h3 class="level-title">HTML5 & CSS3</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="99%"></div>
+						<div class="level-bar-inner" data-level="99%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
 					<h3 class="level-title">Angular 1.x</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="97%"></div>
+						<div class="level-bar-inner" data-level="97%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
 					<h3 class="level-title">Bootstrap</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="90%"></div>
+						<div class="level-bar-inner" data-level="90%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
 					<h3 class="level-title">Ionic Framework</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="90%"></div>
+						<div class="level-bar-inner" data-level="90%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
 					<h3 class="level-title">Firebase</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="65%"></div>
+						<div class="level-bar-inner" data-level="65%">
+						</div>
+					</div><!--//level-bar-->
+				</div><!--//item-->
+				
+				<div class="item">
+					<h3 class="level-title">Angular >2</h3>
+					<div class="level-bar">
+						<div class="level-bar-inner" data-level="40%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
 					<h3 class="level-title">PHP</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="50%"></div>
+						<div class="level-bar-inner" data-level="40%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
-					<h3 class="level-title">MySQL</h3>
+					<h3 class="level-title">SQL</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="50%"></div>
+						<div class="level-bar-inner" data-level="40%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 				
 				<div class="item">
 					<h3 class="level-title">React Native</h3>
 					<div class="level-bar">
-						<div class="level-bar-inner" data-level="40%"></div>
+						<div class="level-bar-inner" data-level="30%">
+						</div>
 					</div><!--//level-bar-->
 				</div><!--//item-->
 			
 			</div>
 		</section><!--//skills-section-->
+	
 	</div><!--//main-body-->
 </div>
 
 <footer class="footer">
 	<div class="text-center">
-		<small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com">Xiaoying Riley</a> for developers</small>
+		<small class="copyright">
+			Designed with <i class="fa fa-heart"></i>
+			by <a href="http://themes.3rdwavemedia.com">Xiaoying Riley</a>
+			for developers
+		</small>
 	</div><!--//container-->
 </footer><!--//footer-->
-
-<!-- Javascript -->
+         <!-- Scripts -->
 <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
-<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-<!-- custom js -->
-<script type="text/javascript" src="assets/js/main.js"></script>
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js" defer></script>
+<script type="text/javascript" src="assets/js/main.js" defer></script>
 </body>
-</html>
+</html> 
+

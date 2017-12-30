@@ -1,0 +1,18 @@
+{
+	"name": "Alejandro López — Frontend Developer",
+	"short_name": "Alejandro L.",
+	"description": "I'm a software developer that meets your needs",
+	"lang": "en-US",
+	"start_url": "/",
+	"display": "minimal-ui",
+	"orientation": "any",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "192x192",
+			"type": "image/vnd.microsoft.icon"
+		}
+	],
+	"theme_color": "#42c098",
+	"background_color": "#f5f5f5"
+}
