@@ -13,7 +13,8 @@
 	},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"deploy": "gulp && firebase deploy"
+		"build": "gulp default",
+		"deploy": "firebase deploy"
 	},
 	"repository": {
 		"type": "git",
