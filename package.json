@@ -1,0 +1,35 @@
+{
+	"name": "mysite",
+	"version": "1.0.0",
+	"description": "My website - Alejandro López",
+	"main": "gulpfile.js",
+	"dependencies": {},
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-concat": "^2.6.1",
+		"gulp-htmlmin": "^4.0.0",
+		"gulp-minify": "^2.1.0",
+		"gulp-minify-css": "^1.2.4"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"deploy": "gulp && firebase deploy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://gitlab.com/arlopezg/mysite.git"
+	},
+	"keywords": [
+		"website",
+		"cv",
+		"curriculum",
+		"technology",
+		"developer"
+	],
+	"author": "Alejandro López",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/arlopezg/mysite/issues"
+	},
+	"homepage": "https://gitlab.com/arlopezg/mysite"
+}

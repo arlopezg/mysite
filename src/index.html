@@ -21,9 +21,9 @@
 	<!-- Global CSS -->
 	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css" media="none" onload="media='all'">
 	<!-- Plugins CSS -->
-	<link rel="stylesheet" type='text/css' href="assets/plugins/font-awesome/css/font-awesome.min.css" media="none" onload="media='all'">
-	<link rel="stylesheet" type='text/css' href="assets/css/styles.css" id="theme-style" media="none" onload="media='all'">
-	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' media="none" onload="media='all'">
+	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css" media="none" onload="media='all'">
+	<link rel="stylesheet" href="assets/css/styles.css" id="theme-style" media="none" onload="media='all'">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' media="none" onload="media='all'">
 	<!-- Favicon -->
 	<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
 	<link rel="apple-touch-icon" type="image/vnd.microsoft.icon" sizes="192x192" href="favicon.ico">
@@ -33,7 +33,7 @@
 <div class="wrapper">
 	<div class="sidebar-wrapper">
 		<div class="profile-container">
-			<img class="profile" src="assets/images/profile.webp" alt="profile_img" height="130" width="130"/>
+			<img class="profile" src="assets/images/profile.webp" alt="Profile" height="130" width="130"/>
 			<h1 class="name">Alejandro López</h1>
 			<h3 class="tagline">Front-end developer</h3>
 		</div><!--//profile-container-->
@@ -43,18 +43,23 @@
 			<ul class="list-unstyled contact-list">
 				<li class="email">
 					<i class="fa fa-envelope"></i>
-					<b>Email address</b>
-					alejandrolopezgd@gmail.com
+					<b>My email</b><br>
+					alejandrolopez.gd@gmail.com
 				</li>
 				<li class="linkedin">
 					<i class="fa fa-linkedin"></i>
-					<b>LinkedIn profile</b>
+					<b>My LinkedIn</b><br>
 					<a href="https://www.linkedin.com/in/arlopezg/">linkedin.com/in/arlopezg</a>
 				</li>
 				<li class="skype">
 					<i class="fa fa-skype"></i>
-					<b>Skype profile</b>
-					alejandro.hb
+					<b>My Skype</b><br>
+					<a href="skype:alejandro.hb">alejandro.hb</a>
+				</li>
+				<li class="gitlab">
+					<i class="fa fa-gitlab"></i>
+					<b>My GitLab</b><br>
+					<a href="https://gitlab.com/arlopezg">@arlopezg</a>
 				</li>
 			</ul>
 		</div><!--//contact-container-->
@@ -76,9 +81,15 @@
 		<div class="languages-container container-block">
 			<h2 class="container-block-title">Languages</h2>
 			<ul class="list-unstyled interests-list">
-				<li>Español <span class="lang-desc">(nativo)</span></li>
-				<li>English <span class="lang-desc">(fluent)</span></li>
-				<li>Français <span class="lang-desc">(basique)</span></li>
+				<li>
+					<img src="assets/images/flags/flag-es.png"> Español <span class="lang-desc">(nativo)</span>
+				</li>
+				<li>
+					<img src="assets/images/flags/flag-us.png"> English <span class="lang-desc">(fluent)</span>
+				</li>
+				<li>
+					<img src="assets/images/flags/flag-fr.png"> Français <span class="lang-desc">(basique)</span>
+				</li>
 			</ul>
 		</div><!--//interests-->
 		
@@ -87,7 +98,7 @@
 			<ul class="list-unstyled interests-list">
 				<li>Technology</li>
 				<li>Local football</li>
-				<li>Hiking</li>
+				<li>Languages</li>
 			</ul>
 		</div><!--//interests-->
 	
@@ -296,8 +307,16 @@
 	</div><!--//main-body-->
 </div>
 
+<div class="text-center">
+	<br>
+	<a href="https://goo.gl/G8sCWE" target="_blank">
+		<button class="btn btn-success">Download as PDF</button>
+	</a>
+</div>
+
 <footer class="footer">
 	<div class="text-center">
+		<br>
 		<small class="copyright">
 			with <i class="fa fa-heart"></i>
 			by <a href="http://themes.3rdwavemedia.com">Xiaoying Riley</a>
@@ -306,8 +325,9 @@
 	</div><!--//container-->
 </footer><!--//footer-->
 
-<script src="assets/plugins/jquery-1.11.3.min.js"></script>
-<script src="assets/plugins/bootstrap/js/bootstrap.min.js" defer></script>
-<script src="assets/js/min/main-min.js" defer async></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+        crossorigin="anonymous"></script>
+<script src="mysite.min.js" defer async></script>
 </body>
 </html>
